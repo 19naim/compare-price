@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-
+const Product = require("../models/Product");
 
 let CategoryNames= [
     "frukt-o-gront", "mejeri-o-ost", "brod-o-bageri", "kott-o-chark", "dryck", "skafferi",

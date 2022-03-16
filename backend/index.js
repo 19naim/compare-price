@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 let citygross = new CityGrossData();
-citygross.getAllData();
+// citygross.getAllData();
 
 let mathem = new MatHemData();
 mathem.getAllData();
